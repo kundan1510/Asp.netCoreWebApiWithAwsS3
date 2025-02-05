@@ -1,12 +1,13 @@
-Steps for Aws S3:
+**Steps for Aws S3:**
 a.	Create a new asp.netcore web api
 b.	Install awssdk.s3 NuGet package
 c.	 Copy Access key and Secret key and add in appsetting.json
-d.	Create connection with the  Amazons3Client.
+d.	Create connection with the  Amazons3Client
 e.	Create Api controller
 f.	Inject IConfiguration
 g.	Create action methods for each operation
-Operations Handled:
+
+**Operations Handled:**
 1.	Listing Buckets
 2.	Updating bucket settings 
 3.	Adding folders and subfolders to a bucket

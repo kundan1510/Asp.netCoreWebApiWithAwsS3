@@ -1,0 +1,259 @@
+[
+  {
+    "ContainingType": "CrudWithAwsS3.Controllers.AwsController",
+    "Method": "AddTagsMetadata",
+    "RelativePath": "api/Aws/add-tags-metadata/{bucketName}/{fileName}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudWithAwsS3.Controllers.AwsController",
+    "Method": "CleanUpBucket",
+    "RelativePath": "api/Aws/cleanup-bucket/{bucketName}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudWithAwsS3.Controllers.AwsController",
+    "Method": "CopyFile",
+    "RelativePath": "api/Aws/copy-file/{sourceBucket}/{sourceKey}/{destinationBucket}/{destinationkey}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sourceBucket",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "sourcekey",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "destinationBucket",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "destinationkey",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudWithAwsS3.Controllers.AwsController",
+    "Method": "CreateBucket",
+    "RelativePath": "api/Aws/create-bucket/{bucketName}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudWithAwsS3.Controllers.AwsController",
+    "Method": "CreateFolder",
+    "RelativePath": "api/Aws/create-folder/{bucketName}/{folderName}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "folderName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudWithAwsS3.Controllers.AwsController",
+    "Method": "CreateObjectFromFile",
+    "RelativePath": "api/Aws/create-object-from-file/{bucketName}/{objectName}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "objectName",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudWithAwsS3.Controllers.AwsController",
+    "Method": "CreateObject",
+    "RelativePath": "api/Aws/create-object/{bucketName}/{objectName}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "objectName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudWithAwsS3.Controllers.AwsController",
+    "Method": "DeleteBucketObject",
+    "RelativePath": "api/Aws/delete-bucket-object/{bucketName}/{objectName}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "objectName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudWithAwsS3.Controllers.AwsController",
+    "Method": "DeleteBucket",
+    "RelativePath": "api/Aws/delete-bucket/{bucketName}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudWithAwsS3.Controllers.AwsController",
+    "Method": "EnableVersioning",
+    "RelativePath": "api/Aws/enable-versioning/{bucketName}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudWithAwsS3.Controllers.AwsController",
+    "Method": "GenerateDownloadLink",
+    "RelativePath": "api/Aws/generate-download-link/{bucketName}/{keyName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "keyName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudWithAwsS3.Controllers.AwsController",
+    "Method": "ListBucket",
+    "RelativePath": "api/Aws/list-bucket",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudWithAwsS3.Controllers.AwsController",
+    "Method": "ListObjects",
+    "RelativePath": "api/Aws/list-object/{bucketName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bucketName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudWithAwsS3.Controllers.AwsController",
+    "Method": "TestAWSClient",
+    "RelativePath": "api/Aws/test-aws-client",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

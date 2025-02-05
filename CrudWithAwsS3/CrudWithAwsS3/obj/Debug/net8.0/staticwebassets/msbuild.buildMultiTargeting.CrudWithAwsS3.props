@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CrudWithAwsS3.props" />
+</Project>

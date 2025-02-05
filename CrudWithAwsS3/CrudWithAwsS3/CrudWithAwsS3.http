@@ -1,0 +1,6 @@
+@CrudWithAwsS3_HostAddress = http://localhost:5188
+
+GET {{CrudWithAwsS3_HostAddress}}/Aws/
+Accept: application/json
+
+###
